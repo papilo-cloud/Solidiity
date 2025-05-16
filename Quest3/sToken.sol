@@ -11,7 +11,7 @@ contract sToken is ERC20, ERC20Burnable, Ownable {
 
     constructor(string memory _name, string memory _symbol, address initialOwner)
         ERC20(_name, _symbol)
-        Owmable(initialOwner) {}
+        Ownable(initialOwner) {}
 
     // insert mint function here
     function mint(address _to, uint _amount) external onlyOwner {

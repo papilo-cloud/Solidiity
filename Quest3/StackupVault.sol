@@ -11,8 +11,8 @@ contract StackupVault {
 
     constructor(address uniAddr, address linkAddr) {
         // initialize mapping of underlying token address => claim tokens
-        claimTokens[uniAddr] = new sToken("Claim Uni", "sUNI" address(this));
-        claimTokens[linkAddr] = new sToken("Claim Link", "sLink" address(this));
+        claimTokens[uniAddr] = new sToken("Claim Uni", "sUNI", msg.sender);
+        claimTokens[linkAddr] = new sToken("Claim Link", "sLink", msg.sender);
 
         // initialize mapping of underlying token address => underlying tokens
         tokens[uniAddr] = IERC20(uniAddr);
