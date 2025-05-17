@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC1155/ERC1155NonReceiver.sol": "CannotReceiveERC1155"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC1155/ERC1155NonReceiver.sol": {
+			"keccak256": "0xa974f22727ba55de8b813a041886ddfdf463435a3c164420f864a027525520ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4929ac52db1386895ef1105de3e01a20c3f67986dd0bbd64abc54445ce5f1a4c",
+				"dweb:/ipfs/QmWFKLHPLoZSNUGD1vj54DUzLVgamjjKitgFFoMkFeG9T3"
+			]
+		}
+	},
+	"version": 1
+}
