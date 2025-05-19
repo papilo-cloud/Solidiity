@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"name": "transferEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Calls/EtherSender.sol": "EtherSender"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Calls/EtherSender.sol": {
+			"keccak256": "0x430fd47d0c45dccdb57efd721d9613dff8a8abf6df09ad76577f4140c1242f0f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d69ea87566b1ec0db0256b4b8c9d6c862edda791cb28df0cfcf84eb931cc704c",
+				"dweb:/ipfs/QmVXAhr5qvtUwEBaE762Wx8AsQa6G4UE9XMjuPEtzRCSkf"
+			]
+		}
+	},
+	"version": 1
+}

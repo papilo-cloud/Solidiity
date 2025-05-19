@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"name": "setData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Calls/Alice.sol": "Alice"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Calls/Alice.sol": {
+			"keccak256": "0x8063bfff1bb4a5730e45a69f9d9d8017a286ae0542340466842efd33bc777265",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0952a198ebf8db9c4fdca127db8132c09c19d32d2d35ad924ce95d54faf6bab0",
+				"dweb:/ipfs/QmYyiuWpfFUDHAqfVU3VYg9MydbM7XuoBoz3N6xq11xBmV"
+			]
+		}
+	},
+	"version": 1
+}

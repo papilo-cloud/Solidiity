@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "aliceAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "alice",
+				"outputs": [
+					{
+						"internalType": "contract Alice",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"name": "callSetData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Calls/Bob.sol": "Bob"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Calls/Alice.sol": {
+			"keccak256": "0x8063bfff1bb4a5730e45a69f9d9d8017a286ae0542340466842efd33bc777265",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0952a198ebf8db9c4fdca127db8132c09c19d32d2d35ad924ce95d54faf6bab0",
+				"dweb:/ipfs/QmYyiuWpfFUDHAqfVU3VYg9MydbM7XuoBoz3N6xq11xBmV"
+			]
+		},
+		"Calls/Bob.sol": {
+			"keccak256": "0x94a82399773cfd344ed36d3287e6dad233e659c7724c92cb3acf2bb5a219168a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9fcdbd79071e986037b437242feec84541f8d51ba9ca72a9ee51a7eb7544574",
+				"dweb:/ipfs/QmWtsg56DNAf1w2QeckM59NUMc6Fdm7gHhZZAWHeCqxhJh"
+			]
+		}
+	},
+	"version": 1
+}

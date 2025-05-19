@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "aliceAddr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValueInAlice",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Calls/Charlie.sol": "Charlie"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Calls/Charlie.sol": {
+			"keccak256": "0x5aee73c9d437dffd2966b2cbaa563207c22ad08a4671ee47f06b9e8ac6b35981",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07582ed0916e4b350daa18697c0f16ae92ad2edec411c673517d44969615e50e",
+				"dweb:/ipfs/QmcU2KnjKCQmTLzhqFBTbt52KKXPrSf9KKzNNPzK2ZXBYN"
+			]
+		}
+	},
+	"version": 1
+}
