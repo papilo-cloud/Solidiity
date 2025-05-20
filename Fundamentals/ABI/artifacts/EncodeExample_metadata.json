@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					}
+				],
+				"name": "encodeData",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ABI/EncodeExample.sol": "EncodeExample"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ABI/EncodeExample.sol": {
+			"keccak256": "0x51e607732e892714e8e9e18a20a06b6b895b9762e33257f4cda21f2644b1ab6d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5331cf412293148eb9b2ea3f0f2007b70d168536e3a6ae5125f3818127921c79",
+				"dweb:/ipfs/QmY4QSo3rYuMwhrCHWAEmVeKqgZ5LwshvgJESSgCLwDk5e"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					}
+				],
+				"name": "encodeWithSignature",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ABI/EncodeWithSignature.sol": "EncodeWithSignatureExample"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ABI/EncodeWithSignature.sol": {
+			"keccak256": "0xccc0295ac9beb27c432adcb9ad66bc3272a04143a0823ce61f7c9ce4ad52925a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a1146f0a07a80535d6e39b06410cca80b324e910775da0e472156db34778428",
+				"dweb:/ipfs/QmYARyneJqKVeoDhggicAXWZ1Pb1NhHytVrQZxjWJR4aHW"
+			]
+		}
+	},
+	"version": 1
+}

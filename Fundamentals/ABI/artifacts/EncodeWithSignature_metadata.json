@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ABI/EncodeWithSignature.sol": "EncodeWithSignature"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ABI/EncodeWithSignature.sol": {
+			"keccak256": "0x4441b8dc4fd5eaec7549f0e5167ade4892d57bfbb2ef205dea79f5843b2bc9a3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3134695054f1d918fe0ea17a73643e505135f3972491c831ad8d89dcbdc9b78e",
+				"dweb:/ipfs/QmTpfTKwX8c7zt5RVFKKjXyYbPtEUdAV3nnQxH4ZM483gf"
+			]
+		}
+	},
+	"version": 1
+}

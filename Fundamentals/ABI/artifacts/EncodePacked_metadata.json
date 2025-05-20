@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ABI/EncodePacked.sol": "EncodePacked"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ABI/EncodePacked.sol": {
+			"keccak256": "0x6144a2faa88977150854fe90b70572e957ca9fc04715b522edae98a8624913ec",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d00770f97dd12c0821f51a9a065db3024d3a9a445368561bb5779aa2986fa920",
+				"dweb:/ipfs/QmYnpvHdbyHck1BF96gRGcCjKczXcTYnaeFNX87nbBqEn2"
+			]
+		}
+	},
+	"version": 1
+}
