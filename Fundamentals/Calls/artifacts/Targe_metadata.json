@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Calls/delegateCallExample.sol": "Name"
+			"Calls/delegateCallExample.sol": "Targe"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"Calls/delegateCallExample.sol": {
-			"keccak256": "0x9f468774cb89e1109c46d9752989952de70b892e41cfc9d197ed11f64673432d",
+			"keccak256": "0x00747dec28f4ed114191e6036b4d1f296bde061e1c006fbab1fbbc930a135ce4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9f9d95d7c6f3e98264d9777eddce178c1d6cb8cbe0c56bd00750fa3899ce5a9e",
-				"dweb:/ipfs/QmPXhAZ73ebMGcFVuUBAKcSmWQyNgeNvVHcht1vv1EoPUG"
+				"bzz-raw://723f9ddf6f98d76510d9ae028eb5675f414e210ea25504bed6e4d99740dff393",
+				"dweb:/ipfs/QmRvvYJFxGJwLWsRSwQ33Ki3rZnwi1n7hBtTY7LH9xPA2m"
 			]
 		}
 	},
