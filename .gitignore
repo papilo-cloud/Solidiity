@@ -1,5 +1,7 @@
 .states
 artifacts
+**/artifacts
 .deps
 **/.deps
 node_modules
+.learneth
