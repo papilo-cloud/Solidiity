@@ -1,0 +1,5 @@
+.states
+artifacts
+.deps
+**/.deps
+node_modules
